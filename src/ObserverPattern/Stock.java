@@ -19,7 +19,8 @@ public class Stock {
         iphoneStockObservable.add(notificationAlertObserver2);
         iphoneStockObservable.add(notificationAlertObserver3);
 
-//        iphoneStockObservable.addStock(-10);
+        // throws invalid argument error, should be properly handled
+        // iphoneStockObservable.addStock(-10);
         iphoneStockObservable.addStock(5);
         iphoneStockObservable.addStock(10);
     }
